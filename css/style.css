@@ -223,24 +223,10 @@ body{
 .home-section .row{
 	min-height: 100vh;
 }
-.home-section .home-content{
-	/*background-color: red;*/
+.home-section .home-content{	
 	flex:0 0 100%;
 	max-width: 100%;
 	text-align: center;
-}
-.home-section .home-content h4{
-	font-size:20px;
-	color:#ffffff;
-	margin:0;
-}
-.home-section .home-content h1{
-	font-size: 60px;
-	margin:0;
-	color:#ffffff;
-	text-transform: uppercase;
-	font-weight: 900;
-	letter-spacing: 10px;
 }
 
 .home-section .scroll-down{
@@ -334,10 +320,6 @@ body{
 .about-section .about-content .btn{
    margin-top: 30px;
 }
-
-
-
-
 
 /* Work Section */
 
