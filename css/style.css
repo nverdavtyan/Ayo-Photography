@@ -108,17 +108,12 @@ body{
 .header .brand-name{
 	padding:0 15px;
 }
-.header .brand-name a{
-	text-decoration: none;
-	font-size: 30px;
-	color:#ffffff;
-	text-transform: uppercase;
-	font-weight: 900;
-	letter-spacing:2px;
-	transition: all 0.5s ease;
+.header .brand-name img{
+	width:240px;	
 }
-.header.fixed .brand-name a{
-	color:#000000;
+
+.header.fixed .brand-name img{	
+	content: url("../img/icons/logo1.png");	 
 }
 .header .nav-toggle{
 	width: 40px;
@@ -632,6 +627,9 @@ background-color: rgba(0,0,0,0.5);
 	}
 }
 @media(max-width: 767px){
+	.header .brand-name img{
+		max-width: 180px;;
+	}
 	.header{
 		padding:7px 0;
 		position: fixed;
