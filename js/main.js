@@ -98,7 +98,7 @@
     const category = $(".work-item").eq(index).find("h4").html();
     $(".lightbox-img").attr("src",imgSrc);
     $(".lightbox-category").html(category)
-    $(".lightbox-counter").html(totalWorkItems + "/" + (index+1));
+    $(".lightbox-counter").html((index+1) + "/" + totalWorkItems );
   }
 
 
